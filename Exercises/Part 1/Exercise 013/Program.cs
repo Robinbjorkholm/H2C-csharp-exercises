@@ -6,7 +6,10 @@ namespace exercise_13
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      Console.WriteLine("give a number!");
+      string i = Convert.ToDouble(Console.ReadLine());
+      Console.WriteLine("you gave " +i);
+
 
     }
   }
