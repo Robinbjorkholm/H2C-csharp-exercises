@@ -12,11 +12,11 @@ namespace exercise_27
 
         if(i>= number)
             {
-                Console.WriteLine("it is positive");
+                Console.WriteLine("it is positive!");
             }
         else
             {
-                Console.WriteLine("it is not positive");
+                Console.WriteLine("it is not positive!");
             }
     }
   }
