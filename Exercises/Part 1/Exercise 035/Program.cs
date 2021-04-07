@@ -6,7 +6,20 @@ namespace exercise_35
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      Console.WriteLine(" guess the right number!");
+           string i = "";
+           string asd  = "42";
+
+          while ( i != asd)
+          {
+               Console.Write("give a number: ");
+                i = Console.ReadLine();   
+          }
+           
+         
+           
+            
+
 
     }
   }
