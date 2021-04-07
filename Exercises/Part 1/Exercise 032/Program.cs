@@ -6,7 +6,18 @@ namespace exercise_32
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      Console.WriteLine("enter a string");
+      string i = Console.ReadLine();
+      string b = "Mellon";
+            // is it possible to not make it uppercase sensitive?
+           if(b == i)
+            {
+                Console.WriteLine("welcome, friend");
+            }else
+            {
+                Console.WriteLine("they've got a cave troll!!");
+            }
+           
 
     }
   }
