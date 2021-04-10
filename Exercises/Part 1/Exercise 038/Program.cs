@@ -15,11 +15,11 @@ namespace exercise_38
          numbers[i] = Convert.ToInt32(Console.ReadLine());
 
         for(int i=0;i<numbers.length;i++)
-            {
+        {
               if( numbers[i]<0)
                     Console.WriteLine("here are your negative numbers");
 
-            }
+        }
 
      
       }
