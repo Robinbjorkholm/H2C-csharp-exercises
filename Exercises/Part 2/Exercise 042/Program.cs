@@ -7,8 +7,12 @@ namespace exercise_42
     public static void Main(string[] args)
     {
 
-      // Write your code here:
-    
+      Console.WriteLine("enter 2 integers");
+      int i = Convert.ToInt32(Console.ReadLine());
+      int b = Convert.ToInt32(Console.ReadLine());
+      int a = i+b;
+      double square = Math.Sqrt(a);
+            Console.WriteLine(square);
     }
   }
 }
