@@ -7,8 +7,15 @@ namespace exercise_47
     public static void Main(string[] args)
     {
 
-      // Write your code here:
-      
+      Console.WriteLine("where to?");
+            int i = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("where from?");
+       
+       
+        for(int a = Convert.ToInt32(Console.ReadLine()); a <= i;a++)
+        {
+         Console.WriteLine(+a);
+        }
     }
   }
 }
